@@ -1,6 +1,5 @@
-# main.py (now at project root)
-# Updated import paths
-from mcp_server.server import mcp_app
+# Main entry point for the Slack MCP server
+from .app import mcp_app
 from core.config import get_settings
 
 def run_server():
