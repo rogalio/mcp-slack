@@ -1,6 +1,6 @@
 from fastmcp import FastMCP
-from mcp_server.tools.message_tools import register_message_tools
-from mcp_server.resources.slack_resources import register_slack_resources
+from tools.message_tools import register_message_tools
+from resources.slack_resources import register_slack_resources
 # Import other tool/resource registration functions as needed
 
 def create_app() -> FastMCP:

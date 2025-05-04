@@ -19,7 +19,7 @@ python3 -m pip install -r requirements.txt
 # Run the specified command
 if [ $# -eq 0 ]; then
     echo "Starting MCP server..."
-    python3 -m main
+    python3 -m server.main
 else
     echo "Running command: python3 $@"
     python3 "$@"
