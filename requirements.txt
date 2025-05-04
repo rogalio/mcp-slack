@@ -1,0 +1,4 @@
+fastmcp==2.2.7
+slack_sdk==3.35.0
+python-dotenv==1.1.0
+uvicorn==0.34.2
